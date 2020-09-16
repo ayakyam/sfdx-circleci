@@ -1,11 +1,11 @@
 version: 2
 
 general:
-# Uncomment the following to specify only a specific branch
-#   branches:
-#     only:
-#       - dev # specific branch
-#       - /dev-.*/ # or regexes
+ #Uncomment the following to specify only a specific branch
+   branches:
+     only:
+       - dev # specific branch
+  #     - /dev-.*/ # or regexes
 
 jobs:
   build:
